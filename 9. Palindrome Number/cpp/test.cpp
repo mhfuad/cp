@@ -4,11 +4,10 @@ using namespace std;
 class Solution {
     public:
     bool isPalindrome(int x) {
-        if (x < 0) return false;            // negative numbers are not palindrome
-        if (x % 10 == 0 && x != 0) return false; // numbers ending with 0 (but not 0) can't be palindrome
+        if (x < 0) return false;
+        if (x % 10 == 0 && x != 0) return false;
 
         int reverted = 0;
-        // build the reversed second half of the number
         while (x > reverted) {
             reverted = reverted * 10 + x % 10;
             x /= 10;
