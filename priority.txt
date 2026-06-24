@@ -1,0 +1,17 @@
+1st Priority: 
+-------------
+Array, 
+String, 
+Math, 
+Binary Search, 
+STL, 
+LinkedList,
+Two Pointer,
+sliding window
+
+2nd Priority:
+-------------
+Backtracting, 
+BFS/DFS, 
+Greedy, 
+DP
